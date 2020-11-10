@@ -6075,6 +6075,12 @@ a.close.disabled {
 .bg-primary {
   background-color: #1abc9c !important;
 }
+.bg-img {
+  background-image: url(../assets/img/portfolio/masthead.png);
+  background-size: cover;
+  background-repeat:no-repeat; 
+  background-position: top; 
+}
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -10123,6 +10129,7 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  visibility: hidden;
 }
 
 @media (min-width: 992px) {
