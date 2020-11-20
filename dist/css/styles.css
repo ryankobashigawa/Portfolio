@@ -89,6 +89,7 @@ p {
   margin-bottom: 1rem;
 }
 
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -358,6 +359,12 @@ template {
   display: none !important;
 }
 
+.not-green {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -393,6 +400,12 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+.lead1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 1rem;
 }
 
 .display-1 {
@@ -10013,6 +10026,14 @@ h3 {
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+  border-radius: 1rem;
+  border-color: #2c3e50 !important;
+}
+.divider-custom .divider-custom-line2 {
+  width: 100%;
+  max-width: 34rem;
   height: 0.25rem;
   background-color: #2c3e50;
   border-radius: 1rem;
