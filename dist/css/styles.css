@@ -492,6 +492,11 @@ mark,
   height: auto;
 }
 
+.resized {
+  width: 540px;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
