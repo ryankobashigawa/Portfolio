@@ -6105,6 +6105,18 @@ a.close.disabled {
   background-position: top; 
 }
 
+.bg-img2 {
+  background-image: url(../assets/img/portfolio/screens-mast.png);
+  background-size: cover;
+  background-repeat:no-repeat; 
+  background-position: top; 
+}
+
+.background-tint {
+  background-color: rgba(46, 49, 49, 1); /* Tint color */ 
+  background-blend-mode: multiply;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
