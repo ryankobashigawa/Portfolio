@@ -571,6 +571,22 @@ pre code {
   margin-left: auto;
 }
 
+.griddy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.griddy .image {
+  width: 50%;
+}
+
+.griddy img {
+  width: calc(100% - (20px * 2));
+  margin: 20px;
+}
+
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
