@@ -497,6 +497,7 @@ mark,
   flex: 1.33;
   max-width: 25%;
   height: 25%;
+  top: -1000px;
 }
 
 .resized {
