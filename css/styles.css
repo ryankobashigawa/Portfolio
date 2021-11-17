@@ -496,7 +496,7 @@ mark,
 .img-fludity {
   flex: 1.33;
   max-width: 50%;
-  height: auto;
+  height: 50%;
 }
 
 .resized {
